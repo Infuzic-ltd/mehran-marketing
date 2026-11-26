@@ -1,0 +1,4 @@
+# People we're already in touch with: the campaign never emails these.
+# One per line: a single address (ali@company.com) or a whole company (@company.com).
+bilal.shaikh@oscar.pk
+muhammadbilalarifshaikh@gmail.com

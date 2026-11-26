@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -I -c ' *)",
+      "Bash(awk -F, 'NR>1{print $2}' towel_contacts_round2.csv)",
+      "Bash(grep -cxFf excl.txt)",
+      "Bash(awk -F, 'NR>1 && $3==\"\"' towel_contacts_round2.csv)",
+      "Bash(sed -i 's/if e in excl or \"towelassociation.com\" in e or e in out: continue/if e in excl or e in SITE_DROP or \"towelassociation.com\" in e or e in out: continue/; s/\"hyderabad\",\"sialkot\"\\\\]/\"hyderabad\",\"sialkot\",\"muzaffergarh\"]/' bin/build.py)",
+      "Bash(python3 -I bin/build.py)"
+    ]
+  }
+}
